@@ -1,0 +1,15 @@
+name: DIGGiWarps
+version: '1.0'
+main: org.diggilounge.diggilounge.DIGGiWarps
+api-version: 1.19
+authors: [Bjørnar Vikhagen]
+commands:
+  setwarp:
+    description: Set a warp location.
+    usage: /setwarp <name>
+  warp:
+    description: Teleport to a warp location.
+    usage: /warp <name>
+  warps:
+    description: Show a list of warps.
+    usage: /warps
